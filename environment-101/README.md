@@ -52,18 +52,6 @@ dnf search <Package>
 dnf remove <Package>
 ```
 
-## Networking
-
-####Show all network interfaces and more
-```
-ifconfig -a
-```
-
-####Show network connections
-```
-netstat
-```
-
 ## File manipulation
 
 ####Update the file last modifi­cation date, if the file does not exist, touch will create a new file
@@ -90,3 +78,16 @@ rm  <Directory Name>
 ```
 mkdir <Directory Name>
 ```
+
+## Networking
+
+####Show all network interfaces and more
+```
+ifconfig -a
+```
+
+####Show network connections
+```
+netstat
+```
+
